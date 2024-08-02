@@ -6,7 +6,7 @@
 
 from typing import List
 
-#Force Brute Algo O(n) complexity
+#Brute Force Algo, O(n^2) complexity
 class Solution:
     def __init__(self) -> None:
         pass
@@ -22,3 +22,5 @@ class Solution:
 num = [3,2,4]   
 target = 6    
 print(Solution.twoSum(num,target))
+
+#test case num = [2,7,11,15] target = 9 output = [0,1]
